@@ -1,0 +1,54 @@
+.project {
+	padding-top: 100px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+#list {
+	position: fixed;
+}
+
+.navbar {
+	background-color: #708090;
+}
+
+.list-group-item {
+	background-color: #76767A;
+	color: whitesmoke;
+}
+
+body {
+	background-color: slategrey;
+	font-family:'Open Sans','Roboto', sans-serif;
+	color: whitesmoke;
+}
+
+.icon-spacing {
+	margin-right: 3px;
+}
+.tab-spacing {
+	margin-right: 15px; 
+}
+
+.proj-image{
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+
+.proj-heading{
+	/* font-family:'Open Sans','Roboto', sans-serif; */
+	color: #FFC334;
+	font-size: 24px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.p1 {
+	padding-bottom: 70px;
+}

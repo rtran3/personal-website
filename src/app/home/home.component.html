@@ -1,0 +1,183 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Your name here">
+    <meta name="description" content="description of your page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/47a1fa50e1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body class="container-fluid">
+<nav class="navbar fixed-top nav-tabs navbar-dark navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-target="#dataTarget" data-bs-toggle="collapse" (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': showNavLinks }" id="dataTarget">
+    <ul class="navbar-nav">
+        <span class="tab-spacing"></span>
+        <li><a class="nav-link" routerLink="/">About Me <span class="icon-spacing"></span><fa-icon [icon]="faHome"></fa-icon></a></li>
+        <span class="tab-spacing"></span>
+        <li><a class="nav-link" routerLink="/work">Work <span class="icon-spacing"></span><fa-icon [icon]="faWork"></fa-icon></a></li>
+        <span class="tab-spacing"></span>
+        <li><a class="nav-link" routerLink="/project">Projects <span class="icon-spacing"></span><fa-icon [icon]="faProject"></fa-icon></a></li>
+        <!-- <li><a class="nav-link" href="resume1.pdf" download="Resume">Resume</a></li> -->
+    </ul>
+    </div>
+</nav>
+<div id="banner">
+    <div class ="row align-items-end justify-content-center">
+        <div class="d-none d-md-block col-md-3 col-lg-2">
+            <img src="assets/profile.jpg" alt="Randy Tran" class="profile img-fluid">
+        </div>
+        <div class="col-md-3 col-lg-2">
+            <p id="name">Randy Tran</p>
+            <p id="position">Aspiring Software/Data Engineer</p>
+            <p>
+                <a href="https://github.com/rtran3" id ="git" title="github"><fa-icon [icon]="faGithub" size="2x"></fa-icon></a>
+                <span class="brand-icon-spacing"></span>
+                <a href="https://www.facebook.com/" id ="facebook" title="facebook"><fa-icon [icon]="faFacebook" size="2x"></fa-icon></a>
+                <span class="brand-icon-spacing"></span>
+                <a href="https://www.linkedin.com/" id ="linkedin" title="linkedin"><fa-icon [icon]="faLinkedin" size="2x"></fa-icon></a>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="row about">
+    <div class="col-md-7">
+    <div class="row justify-content-center">
+        <div class="col-md-9">
+        <h1 class="aboutme">About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr>
+        <br>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+        <h2 class="education">Education</h2>
+        <p>University of California, Irvine</p>
+        <p>B.S. in Computer Science</p>
+        <h2 class="coursework">Relevant Coursework</h2>
+        <ul>
+        <li>Programming in Python</li>
+        <li>Programming in Java</li>
+        <li>Programming in C++</li>
+        <li>Concepts of Programming Languages</li>
+        <li>Data Structure Implementation and Analysis</li>
+        <li>Principles in System Design</li>
+        <li>Data Management</li>
+        <li>Beyond SQL Data Management</li>
+        <li>Design and Analysis of Algorithms</li>
+        <li>Project in Algorithms and Data Structures</li>
+        <li>User Interaction Software</li>
+        <li>Human Computer Interaction</li>
+        <li>Requirements Analysis and Engineering</li>
+        <li>Introduction to Software Engineering</li>
+        <li>Software Testing, Analysis, and Quality Assurance</li>
+        <li>Machine Learning and Data-Mining</li>
+        <li>Probability and Statistics</li>
+        </ul>
+        <h2 class="interests">Interests</h2>
+        <ul>
+        <li>Data Engineering</li>
+        <li>Software Development</li>
+        <li>Portrait Drawing</li>
+        </ul>
+        <h2 class="os">Operating Systems</h2>
+        <ul>
+        <li>Windows</li>
+        <li>Linux</li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <h2 class="pl">Programming Languages</h2>
+        <ul>
+        <li>Python <fa-icon [icon]="faPython"></fa-icon></li>
+        <li>Java <fa-icon [icon]="faJava"></fa-icon></li>
+        <li>C </li>
+        <li>C++ </li>
+        <li>Assembly </li>
+        <li>Lisp</li>
+        <li>Prolog</li>
+        </ul>
+        <h2 class="wd">Full-Stack Web Development</h2>
+        <ul>
+        <li>HTML <fa-icon [icon]="faHtml"></fa-icon></li>
+        <li>CSS <fa-icon [icon]="faCss"></fa-icon></li>
+        <li>JavaScript <fa-icon [icon]="faJavascript"></fa-icon></li>
+        <li>Vega-Lite</li>
+        <li>TypeScript</li>
+        <li>Angular <fa-icon [icon]="faAngular"></fa-icon></li>
+        <li>Express/Node.js <fa-icon [icon]="faNode"></fa-icon></li>
+        <li>Bootstrap <fa-icon [icon]="faBootstrap"></fa-icon></li>
+        </ul>
+        <h2 class="frameworks">Mobile Development</h2>
+        <ul>
+        <li>Ionic</li>
+        </ul>
+        <h2 class="ql">Database Systems (SQL & NoSQL)</h2>
+        <ul>
+        <li>PostgreSQL</li>
+        <li>Cassandra</li>
+        <li>MongoDB</li>
+        <li>Couchbase Server</li>
+        <li>Neo4J</li>
+        <li>Spark</li>
+        </ul>
+        <h2 class="da">Data Analysis</h2>
+        <ul>
+        <li>Pandas</li>
+        </ul>
+        <h2 class="ml">Machine Learning</h2>
+        <ul>
+        <li>Scikit-Learn</li>
+        </ul>
+        <h2 class="skills">Tools and Technologies</h2>
+        <ul>
+        <li>Eclipse</li>
+        <li>Visual Studio Code</li>
+        <li>IntelliJ</li>
+        <li>Sublime Text</li>
+        <li>Git <fa-icon [icon]="faGit"></fa-icon></li>
+        <li>GitHub <fa-icon [icon]="faGithub"></fa-icon></li>
+        <li>Jupyter Notebook</li>
+        <li>Docker <fa-icon [icon]="faDocker"></fa-icon></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+    <div class="mb-3 col-md-4 justify-content-center">
+    <h1 class="contact">Contact</h1>
+    <form (ngSubmit)="onSubmitMessage(messageForm)" #messageForm="ngForm">
+        <div class="form-group">
+            <label for="address">Email *</label>
+            <input id="address" name="email" class="form-control" ngModel #email="ngModel" required email>
+            <span class= invalidInput *ngIf="!email.valid && email.touched">Please enter a valid email!</span>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="msg" class="form-control" ngModel #message="ngModel" rows="5" required></textarea>
+            <span class= invalidInput *ngIf="!message.valid && message.touched">Message cannot be empty!</span>
+        </div>
+        <br>
+        <div class="button-spinner-container">
+            <button type="submit" class="btn btn-primary" [disabled]="!messageForm.valid">Submit</button>
+            <span class="spinner-spacing"></span>
+            <app-spinner *ngIf="isSubmitting"></app-spinner>
+        </div>
+        <br>
+        <span class=successfulSubmit *ngIf="successfulSubmit">Message sent successfully.</span>
+    </form>
+    </div>
+</div>
+<footer class="foot">
+    <div class ="row">
+        <p>© 2022 Randy Tran</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+  

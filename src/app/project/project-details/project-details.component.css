@@ -1,0 +1,20 @@
+.proj-image{
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+
+.proj-heading{
+	/* font-family: 'Roboto','Open Sans', sans-serif; */
+	color: #FFC334;
+	font-size: 24px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.p1 {
+	padding-bottom: 97px;
+}

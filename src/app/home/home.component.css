@@ -1,0 +1,173 @@
+body {
+	background-color: slategrey;
+	font-family:'Open Sans','Roboto', sans-serif;
+	color: whitesmoke;
+	/* width: 100%;
+	height: 100vh; */
+}
+
+#banner {
+	width: 100%;
+	background-image: url("../../assets/background.jpg");
+	height: 500px;
+	background-position: top;
+	padding-top: 175px;
+	background-size: cover;
+  	text-align: center;
+
+}
+.brand-icon-spacing {
+	margin-right: 5px;
+}
+.icon-spacing {
+	margin-right: 3px;
+}
+.tab-spacing {
+	margin-right: 15px; 
+}
+
+.spinner-spacing {
+	margin-right: 15px;
+}
+
+.button-spinner-container {
+	display: flex;
+	align-items: center;
+}  
+
+
+.navbar {
+	background-color: #708090;
+}
+
+.profile {
+  	width: 225px;
+	height: 200px;
+  	border-radius: 20%
+}
+
+#name {
+	font-size: 35px;
+}
+
+#position {
+	font-family: 'Roboto','Open Sans', sans-serif;
+}
+
+.about {
+	padding-top: 40px;
+	font-size: larger;
+	/* width: 100%;
+	height: 100vh; */
+	
+}
+
+#git {
+	color: whitesmoke;
+}
+
+#git:hover {
+	color: black;
+}
+
+#facebook {
+	color: whitesmoke;
+}
+
+#facebook:hover {
+	color: #2F8BDB;
+}
+
+#linkedin {
+	color: whitesmoke;
+}
+
+#linkedin:hover {
+	color: #0077B5;
+}
+
+.education {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.coursework {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.interests {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.skills {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.pl{
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.ql {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.wd {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.da {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.ml {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.os {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.frameworks {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.aboutme {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.about {
+	padding-bottom: 70px;
+}
+
+.contact {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.email {
+	text-align: right;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+	border: 1px solid red;
+}
+
+.invalidInput {
+	font-size: medium
+}
+
+.successfulSubmit {
+	background-color: #4CAF50; /* Green background color */
+	color: #fff; /* Text color */
+	padding: 15px; /* Padding around the text */
+	text-align: center; /* Center-align the text */
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for a subtle lift effect */
+	font-family: Arial, sans-serif; /* Choose a professional font */
+	border-radius: 5px; /* Rounded corners for a modern look */
+	font-size: medium;
+}
